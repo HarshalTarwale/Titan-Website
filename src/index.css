@@ -5,6 +5,17 @@
     font-family: 'Zen Dots';
     src: url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
   }
+  
+  html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  #root {
+    background-color: black;
+  }
 }
 
 .zen {

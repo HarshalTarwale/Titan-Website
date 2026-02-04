@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar bg-white/10 backdrop-blur-md h-[15%] w-[75%] rounded-[30vh] flex items-center justify-between px-[4vh] border-[0.5px] border-white/30 shadow-lg">
         <div className="Left ">
             <Link to="/">
-              <img src="/Images/LOGO.png" alt="" className="h-[8vh] cursor-pointer" />
+              <img src={`${import.meta.env.BASE_URL}Images/LOGO.png`} alt="Logo" className="h-[8vh] cursor-pointer" />
             </Link>
         </div>
         <div className="right pr-[2vh]">

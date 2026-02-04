@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: 'Zen Dots';
+    src: url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+  }
+}
 
 .zen {
   font-family: 'Zen Dots', cursive;

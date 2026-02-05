@@ -17,7 +17,7 @@ const Home = () => {
              <Heading1 text="Explore" style={{ WebkitTextStroke: '0.5px white' }} />
              
              {/* Grid Container - Displays Titan's watch collections in a masonry-style grid */}
-             <div className='Grid-container flex justify-center w-full'>
+             <div className='Grid-container flex justify-center w-full mt-[12vh]'>
                 {/* 
                     *** EDIT GRID SIZE HERE ***
                     Grid wrapper: Change 'h-[100vh]' to adjust overall grid height
@@ -25,13 +25,13 @@ const Home = () => {
                     Current aspect ratio: 1:1 (square grid)
                     All child elements use percentages relative to this container
                 */}
-                <div className='relative w-[80vh] h-[80vh]'>
+                <div className='relative w-[90vh] h-[90vh]'>
                     
                     {/* Nebula - Tall vertical card (top-left) */}
                     {/* Position: left-0 top-0 | Size: 40.6% width × 63.4% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-0 top-0 w-[40.6%] h-[63.4%]'>
+                    <div className='nebula absolute rounded-[1.3vh] left-0 top-0 w-[40.6%] h-[63.4%]'>
                         <img 
-                            src='/public/Images/nebula.jpg' 
+                            src='public\Home\Grid Images\nebula.jpg' 
                             alt='Nebula Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />
@@ -42,9 +42,9 @@ const Home = () => {
                     
                     {/* Smart - Small square card (top-center) */}
                     {/* Position: left-42.4% top-0 | Size: 28.3% width × 28.5% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-0 w-[28.3%] h-[28.5%]'>
+                    <div className='smart absolute rounded-[1.3vh] left-[42.4%] top-0 w-[28.3%] h-[28.5%]'>
                         <img 
-                            src='/public/Images/smart.jpg' 
+                            src='public\Home\Grid Images\smart.jpg' 
                             alt='Smart Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />
@@ -55,9 +55,9 @@ const Home = () => {
                     
                     {/* fastract - Small rectangular card (top-right) */}
                     {/* Position: left-72.5% top-0 | Size: 27.9% width × 28.4% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[72.5%] top-0 w-[27.9%] h-[28.4%]'>
+                    <div className='fastract absolute rounded-[1.3vh] left-[72.5%] top-0 w-[27.9%] h-[28.4%]'>
                         <img 
-                            src='/public/Images/fastract.jpg' 
+                            src='public\Home\Grid Images\fastract.jpg' 
                             alt='Fastract Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />
@@ -68,9 +68,9 @@ const Home = () => {
                     
                     {/* xylys - Wide horizontal card (middle-right) */}
                     {/* Position: left-42.4% top-30.2% | Size: 57.6% width × 33.1% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-[30.2%] w-[57.6%] h-[33.1%]'>
+                    <div className='xylys absolute rounded-[1.3vh] left-[42.4%] top-[30.2%] w-[57.6%] h-[33.1%]'>
                         <img 
-                            src='/public/Images/xylys.jpg' 
+                            src='public\Home\Grid Images\xylys.jpg' 
                             alt='Xylys Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />
@@ -81,9 +81,9 @@ const Home = () => {
                     
                     {/* Edge - Wide horizontal card (bottom-left) */}
                     {/* Position: left-0 top-65.2% | Size: 40.6% width × 34.9% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-0 top-[65.2%] w-[40.6%] h-[34.9%]'>
+                    <div className='edge absolute rounded-[1.3vh] left-0 top-[65.2%] w-[40.6%] h-[34.9%]'>
                         <img 
-                            src='/public/Images/edge.jpg' 
+                            src='public\Home\Grid Images\edge.jpg' 
                             alt='Edge Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />
@@ -94,9 +94,9 @@ const Home = () => {
                     
                     {/* Raga - Wide horizontal card (bottom-right) */}
                     {/* Position: left-42.4% top-65.2% | Size: 57.6% width × 34.9% height */}
-                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-[65.2%] w-[57.6%] h-[34.9%]'>
+                    <div className='raga absolute rounded-[1.3vh] left-[42.4%] top-[65.2%] w-[57.6%] h-[34.9%]'>
                         <img 
-                            src='/public/Images/raga.jpg' 
+                            src='public\Home\Grid Images\raga.jpg' 
                             alt='Raga Collection' 
                             className='w-full h-full object-cover rounded-[1.3vh]'
                         />

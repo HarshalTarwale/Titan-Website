@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../Components/Navbar.jsx'
 import Heading1 from '../Components/Heading1.jsx'
 import Video from '../Components/Video.jsx'
-import HomeGrid from '../Components/HomeGrid.jsx'
+import HomeGrid from '../Components/Home Components/HomeGrid.jsx'
+import NewArrival from '../Components/Home Components/NewArrival.jsx'
 
 
 const Home = () => {
@@ -17,6 +18,11 @@ const Home = () => {
         <div className='Explore text-white mt-[30vh]'>
              <Heading1 text="Explore" style={{ WebkitTextStroke: '0.5px white' }} />
              <HomeGrid />
+        </div>
+
+        {/* New Arrival Section */}
+        <div className='NewArrival text-white mt-[30vh]'>
+             <NewArrival />
         </div>
       
     </div>

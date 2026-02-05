@@ -9,6 +9,16 @@
     overflow-x: hidden;
   }
   
+  /* Hide scrollbars for all elements */
+  * {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
   #root {
     background-color: black;
   }

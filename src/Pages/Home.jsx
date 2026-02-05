@@ -6,7 +6,7 @@ import Video from '../Components/Video.jsx'
 
 const Home = () => {
   return (
-    <div className='bg-black min-h-screen w-full'>
+    <div className='bg-black min-h-screen w-full overflow-x-hidden'>
         <Navbar/>
         <Video 
           src={`${import.meta.env.BASE_URL}public/Home/Presenting Titan Edge Mechanical.mp4`}
@@ -14,9 +14,99 @@ const Home = () => {
         
         {/* Explore Section */}
         <div className='Explore text-white mt-[30vh]'>
-            <div className='mb-20'>
-                <Heading1 text="Explore" style={{ WebkitTextStroke: '0.5px white' }} />
-            </div>
+             <Heading1 text="Explore" style={{ WebkitTextStroke: '0.5px white' }} />
+             
+             {/* Grid Container - Displays Titan's watch collections in a masonry-style grid */}
+             <div className='Grid-container flex justify-center w-full'>
+                {/* 
+                    *** EDIT GRID SIZE HERE ***
+                    Grid wrapper: Change 'h-[100vh]' to adjust overall grid height
+                    Change 'w-[100vh]' to adjust overall grid width
+                    Current aspect ratio: 1:1 (square grid)
+                    All child elements use percentages relative to this container
+                */}
+                <div className='relative w-[80vh] h-[80vh]'>
+                    
+                    {/* Nebula - Tall vertical card (top-left) */}
+                    {/* Position: left-0 top-0 | Size: 40.6% width × 63.4% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-0 top-0 w-[40.6%] h-[63.4%]'>
+                        <img 
+                            src='/public/Images/nebula.jpg' 
+                            alt='Nebula Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute bottom-[1.7vh] left-1/2 -translate-x-1/2 font-["Zen_Dots"] text-[3.2vh] text-white text-center'>
+                            Nebula
+                        </p>
+                    </div>
+                    
+                    {/* Smart - Small square card (top-center) */}
+                    {/* Position: left-42.4% top-0 | Size: 28.3% width × 28.5% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-0 w-[28.3%] h-[28.5%]'>
+                        <img 
+                            src='/public/Images/smart.jpg' 
+                            alt='Smart Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute bottom-[1.7vh] left-1/2 -translate-x-1/2 font-["Zen_Dots"] text-[2.3vh] text-white text-center'>
+                            Smart
+                        </p>
+                    </div>
+                    
+                    {/* fastract - Small rectangular card (top-right) */}
+                    {/* Position: left-72.5% top-0 | Size: 27.9% width × 28.4% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[72.5%] top-0 w-[27.9%] h-[28.4%]'>
+                        <img 
+                            src='/public/Images/fastract.jpg' 
+                            alt='Fastract Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute bottom-[1.7vh] left-1/2 -translate-x-1/2 font-["Zen_Dots"] text-[2.3vh] text-white text-center'>
+                            fastract
+                        </p>
+                    </div>
+                    
+                    {/* xylys - Wide horizontal card (middle-right) */}
+                    {/* Position: left-42.4% top-30.2% | Size: 57.6% width × 33.1% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-[30.2%] w-[57.6%] h-[33.1%]'>
+                        <img 
+                            src='/public/Images/xylys.jpg' 
+                            alt='Xylys Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute top-[1.7vh] left-[6.6%] font-["Zen_Dots"] text-[3.2vh] text-white text-center'>
+                            xylys
+                        </p>
+                    </div>
+                    
+                    {/* Edge - Wide horizontal card (bottom-left) */}
+                    {/* Position: left-0 top-65.2% | Size: 40.6% width × 34.9% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-0 top-[65.2%] w-[40.6%] h-[34.9%]'>
+                        <img 
+                            src='/public/Images/edge.jpg' 
+                            alt='Edge Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute top-[1.7vh] left-1/2 -translate-x-1/2 font-["Zen_Dots"] text-[3.2vh] text-white text-center'>
+                            Edge
+                        </p>
+                    </div>
+                    
+                    {/* Raga - Wide horizontal card (bottom-right) */}
+                    {/* Position: left-42.4% top-65.2% | Size: 57.6% width × 34.9% height */}
+                    <div className='absolute bg-gray-50 rounded-[1.3vh] left-[42.4%] top-[65.2%] w-[57.6%] h-[34.9%]'>
+                        <img 
+                            src='/public/Images/raga.jpg' 
+                            alt='Raga Collection' 
+                            className='w-full h-full object-cover rounded-[1.3vh]'
+                        />
+                        <p className='absolute top-[1.7vh] left-[5.9%] font-["Zen_Dots"] text-[3.2vh] text-white text-center'>
+                            Raga
+                        </p>
+                    </div>
+                    
+                </div>
+             </div>
             
         </div>
       

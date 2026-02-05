@@ -1,11 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import "tailwindcss";
 
 @layer base {
-  @font-face {
-    font-family: 'Zen Dots';
-    src: url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-  }
-  
   html, body {
     background-color: black;
     margin: 0;

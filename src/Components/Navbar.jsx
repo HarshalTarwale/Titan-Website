@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
         </div>
         <div className="right pr-[2vh]">
-            <div className="navlinks flex gap-[5vh] font-['zen_dots'] text-[1.9vh] text-white">
+            <div className="navlinks flex gap-[5vh] zen text-[1.9vh] text-white">
                 <Link to= "/all-products">All Products</Link>
                 <Link to= "/wishlist">Wishlist</Link>
                 <Link to= "/cart">Cart</Link>

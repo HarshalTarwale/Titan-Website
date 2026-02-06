@@ -14,7 +14,7 @@ import { Pagination } from 'swiper/modules';
 
 const NewArrival = () => {
   return (
-    <div className="w-full flex justify-center px-[12vw] text-white mb-[30vh]">
+    <div className="w-full flex justify-center px-[12vw] text-white mb-[10vh]">
       <div className=" w-full ">
         <Heading1
           text="New Arrivals"

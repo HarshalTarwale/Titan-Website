@@ -32,7 +32,7 @@ const NewCard = ({
 
   return (
     <div 
-      className={`relative w-[40vh] h-[55vh] rounded-[13px] overflow-hidden transition-all duration-300 hover:scale-102 hover:shadow-[0_0_15px_rgba(134,136,137,0.7)] ${navigateTo ? 'cursor-pointer' : ''} ${className}`}
+      className={`relative w-[40vh] h-[55vh] rounded-[13px] overflow-hidden transition-all duration-300  hover:shadow-[0_0_15px_rgba(134,136,137,0.7)] ${navigateTo ? 'cursor-pointer' : ''} ${className}`}
       onClick={handleClick}
     >
       {/* Image container with overflow hidden for rounded corners */}

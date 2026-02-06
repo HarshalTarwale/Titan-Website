@@ -27,3 +27,53 @@
 .zen {
   font-family: 'Zen Dots', cursive;
 }
+
+/* ========================================
+   🎨 SWIPER PAGINATION DOTS CUSTOMIZATION
+   ======================================== */
+
+/* Pagination dots container positioning */
+.swiper-pagination {
+  position: relative !important; /* Makes dots appear below the cards */
+  bottom: auto !important;
+  margin-top: 30px !important; /* 🔧 ADJUST: Space between cards and dots */
+}
+
+/* Individual pagination dot (inactive) */
+.swiper-pagination-bullet {
+  width: 12px !important; /* 🔧 ADJUST: Dot width */
+  height: 12px !important; /* 🔧 ADJUST: Dot height */
+  background: #ffffff !important; /* 🎨 ADJUST: Inactive dot color */
+  opacity: 0.5 !important; /* 🔧 ADJUST: Inactive dot transparency (0-1) */
+  margin: 0 8px !important; /* 🔧 ADJUST: Space between dots */
+  border-radius: 50%; /* Keeps dots circular */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Active pagination dot */
+.swiper-pagination-bullet-active {
+  background: #ffffff !important; /* 🎨 ADJUST: Active dot color */
+  opacity: 1 !important; /* Active dot fully visible */
+  transform: scale(1.2); /* 🔧 ADJUST: Active dot size (1.2 = 20% larger) */
+}
+
+/* Hover effect on dots */
+.swiper-pagination-bullet:hover {
+  opacity: 0.8 !important; /* 🔧 ADJUST: Hover transparency */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* ========================================
+   📦 SWIPER CONTAINER CUSTOMIZATION
+   ======================================== */
+
+.mySwiper {
+  padding-bottom: 0px;
+  padding-left: 2vh;
+  padding-top: 2vh; /* No extra padding needed since dots are now below */
+}
+
+/* Optional: Add space between slides */
+.swiper-slide {
+  height: auto; /* Ensures cards maintain their height */
+}

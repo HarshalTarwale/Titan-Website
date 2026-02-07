@@ -74,7 +74,7 @@ const BestSeller = () => {
   }, [])
 
   return (
-    <div className=' w-full flex justify-center px-[12vw] mt-[20vh]'>
+    <div className=' w-full flex justify-center px-[12vw] mt-[20vh] mb-[10vh]'>
         <div className=' w-full'>
             <div className='flex w-full justify-center'><Heading1 text={'Best Sellers'}/></div>
             <div className='best-container w-full'>

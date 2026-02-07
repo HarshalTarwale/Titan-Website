@@ -10,7 +10,7 @@ const Heading1 = ({ text, className = '', style = {} }) => {
 
   return (
     <h1 
-      className={`zen text-[9vh] tracking-[3.75px] text-center ${className}`}
+      className={`zen text-[7vh] tracking-[3.75px] text-center ${className}`}
       style={defaultStyle}
     >
       {text}

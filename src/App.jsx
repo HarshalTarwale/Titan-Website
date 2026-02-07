@@ -1,14 +1,50 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router , Routes ,Route } from 'react-router-dom' 
+import './App.css'
+import Lenis from 'lenis'
+import 'lenis/dist/lenis.css'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Home from './Pages/Home.jsx' 
 import Account from './Pages/Account.jsx'
 import Wishlist from './Pages/Wishlist.jsx'
 import Cart from './Pages/Cart.jsx'
 import AllProducts from './Pages/AllProducts.jsx' 
 
-
+// Register GSAP ScrollTrigger
+gsap.registerPlugin(ScrollTrigger)
 
 const App = () => {
+  useEffect(() => {
+    // Initialize Lenis
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical',
+      gestureDirection: 'vertical',
+      smooth: true,
+      mouseMultiplier: 1,
+      smoothTouch: false,
+      touchMultiplier: 2,
+      infinite: false,
+    })
+
+    // Integrate Lenis with GSAP ScrollTrigger
+    lenis.on('scroll', ScrollTrigger.update)
+
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000)
+    })
+
+    gsap.ticker.lagSmoothing(0)
+
+    // Cleanup
+    return () => {
+      lenis.destroy()
+      gsap.ticker.remove()
+    }
+  }, [])
+
   return (
     <Router basename={import.meta.env.BASE_URL}>
       <Routes>

@@ -4,6 +4,8 @@ import Heading1 from '../Components/Heading1.jsx'
 import Video from '../Components/Video.jsx'
 import HomeGrid from '../Components/Home Components/HomeGrid.jsx'
 import NewArrival from '../Components/Home Components/NewArrival.jsx'
+import WatchCard from '../Components/WatchCard.jsx'
+import BestSeller from '../Components/Home Components/BestSeller.jsx'
 
 
 const Home = () => {
@@ -24,6 +26,9 @@ const Home = () => {
         <div className='NewArrival text-white mt-[30vh]'>
              <NewArrival />
         </div>
+
+        {/* Best Sellers Section */}
+        <BestSeller />
       
     </div>
   )

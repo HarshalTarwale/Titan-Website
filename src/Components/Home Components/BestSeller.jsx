@@ -29,13 +29,11 @@ const BestSeller = () => {
         opacity: 1,          // 🎨 EDIT: Ending opacity
         y: 0,                // 🎨 EDIT: Ending Y position (0 = original position)
         scale: 1,            // 🎨 EDIT: Ending scale (1 = original size)
-        duration: 1,         // 🎨 EDIT: Animation duration in seconds
+        duration: 0.8,         // 🎨 EDIT: Animation duration in seconds
         ease: 'power2.out',  // 🎨 EDIT: Easing function (power1/power2/power3/power4, elastic, back)
         scrollTrigger: {
           trigger: line1Ref.current,    // Element that triggers the animation
           start: 'top 80%',               // 🎨 EDIT: When animation starts (trigger top at viewport 80%)
-          end: 'top 90%',              // 🎨 EDIT: When animation ends
-          scrub: 3,                       // 🎨 EDIT: Smooth scrubbing (1-3 seconds, or true for instant, false to disable)
           toggleActions: 'play none none reverse', // 🎨 EDIT: onEnter onLeave onEnterBack onLeaveBack
           // markers: true,                // 🐛 DEBUG: Uncomment to see trigger markers
         },
@@ -58,13 +56,11 @@ const BestSeller = () => {
        opacity: 1,          // 🎨 EDIT: Ending opacity
         y: 0,                // 🎨 EDIT: Ending Y position (0 = original position)
         scale: 1,            // 🎨 EDIT: Ending scale (1 = original size)
-        duration: 1,         // 🎨 EDIT: Animation duration in seconds
+        duration: 0.8,         // 🎨 EDIT: Animation duration in seconds
         ease: 'power2.out',  // 🎨 EDIT: Easing function (power1/power2/power3/power4, elastic, back)
         scrollTrigger: {
           trigger: line2Ref.current,    // Element that triggers the animation
           start: 'top 80%',               // 🎨 EDIT: When animation starts (trigger top at viewport 80%)
-          end: 'top 90%',              // 🎨 EDIT: When animation ends
-          scrub: 3,                       // 🎨 EDIT: Smooth scrubbing (1-3 seconds, or true for instant, false to disable)
           toggleActions: 'play none none reverse', // 🎨 EDIT: onEnter onLeave onEnterBack onLeaveBack
           // markers: true,           // 🐛 DEBUG: Uncomment to see trigger markers
         },

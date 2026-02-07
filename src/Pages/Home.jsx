@@ -6,6 +6,7 @@ import HomeGrid from '../Components/Home Components/HomeGrid.jsx'
 import NewArrival from '../Components/Home Components/NewArrival.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
 import BestSeller from '../Components/Home Components/BestSeller.jsx'
+import Titantext from '../Components/Home Components/Titantext.jsx'
 
 
 const Home = () => {
@@ -29,6 +30,9 @@ const Home = () => {
 
         {/* Best Sellers Section */}
         <BestSeller />
+
+        {/* Titan effect sectiobn */}
+        <Titantext />
       
     </div>
   )

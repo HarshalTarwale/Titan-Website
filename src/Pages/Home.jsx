@@ -36,8 +36,8 @@ const Home = () => {
         <Titantext />
 
         {/* FAQ Section */}
-        <div className='FAQ text-white mt-[20vh] mb-[10vh]'>
-             <Heading1 text="FAQ" style={{ WebkitTextStroke: '0.5px white' }} />
+        <div className='FAQ text-white mt-[18vh] mb-[10vh]'>
+             <Heading1 text="FAQ" style={{ WebkitTextStroke: '0.5px white', marginBottom: '4vh' }} />
              <FAQ />
         </div>
       

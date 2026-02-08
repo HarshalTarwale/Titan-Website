@@ -7,6 +7,7 @@ import NewArrival from '../Components/Home Components/NewArrival.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
 import BestSeller from '../Components/Home Components/BestSeller.jsx'
 import Titantext from '../Components/Home Components/Titantext.jsx'
+import FAQ from '../Components/Home Components/FAQ.jsx'
 
 
 const Home = () => {
@@ -33,6 +34,12 @@ const Home = () => {
 
         {/* Titan effect sectiobn */}
         <Titantext />
+
+        {/* FAQ Section */}
+        <div className='FAQ text-white mt-[20vh] mb-[10vh]'>
+             <Heading1 text="FAQ" style={{ WebkitTextStroke: '0.5px white' }} />
+             <FAQ />
+        </div>
       
     </div>
   )

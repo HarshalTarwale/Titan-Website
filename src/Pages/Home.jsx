@@ -9,6 +9,7 @@ import BestSeller from '../Components/Home Components/BestSeller.jsx'
 import Titantext from '../Components/Home Components/Titantext.jsx'
 import FAQ from '../Components/Home Components/FAQ.jsx'
 import LoginTab from '../Components/Home Components/LoginTab.jsx'
+import Footer from '../Components/Footer.jsx'
 
 
 const Home = () => {
@@ -44,6 +45,9 @@ const Home = () => {
 
         {/* Login tab */}
         <LoginTab />
+
+        {/* Footer */}
+        <Footer />
       
     </div>
   )

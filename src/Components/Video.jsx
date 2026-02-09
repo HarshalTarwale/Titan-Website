@@ -12,7 +12,7 @@ const Video = ({
   return (
     <div className='h-video w-full flex justify-center pt-[12vh]'>
       <video 
-        className={`h-[93vh] rounded-[25px] ${className}`}
+        className={`h-[87vh] rounded-[25px] ${className}`}
         src={src}
         autoPlay={autoPlay}
         muted={muted}

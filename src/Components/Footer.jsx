@@ -1,5 +1,10 @@
 import React from 'react'
 import Heading2 from './Heading2'
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -76,22 +81,22 @@ const Footer = () => {
             <div className='flex gap-4 mb-6'>
               <a href='https://www.facebook.com/TitanWatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'>f</span>
+                  <span className='text-[11px]'><FaFacebookF /></span>
                 </div>
               </a>
               <a href='https://www.instagram.com/titanwatches/' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'>📷</span>
+                  <span className='text-[11px]'><BsInstagram /></span>
                 </div>
               </a>
               <a href='https://www.youtube.com/user/TitanWatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'>▶</span>
+                  <span className='text-[11px]'><FaYoutube /></span>
                 </div>
               </a>
               <a href='https://twitter.com/titanwatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'>𝕏</span>
+                  <span className='text-[11px]'><FaXTwitter /></span>
                 </div>
               </a>
             </div>

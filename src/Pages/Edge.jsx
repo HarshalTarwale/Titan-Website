@@ -17,7 +17,7 @@ const Edge = () => {
 
         {/* Edge Catalog Section with overlayed heading */}
         <div className='relative w-full mt-[15vh] mb-[15vh]'>
-          {/* Edge Heading - Absolute positioned */}
+          {/* Edge Heading - Absolute positioned behind cards */}
           <div className='absolute top-0 left-0 right-0 z-0'>
             <Heading3 text="EDGE" />
           </div>

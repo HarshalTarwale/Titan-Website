@@ -10,7 +10,8 @@ import Account from './Pages/Account.jsx'
 import Wishlist from './Pages/Wishlist.jsx'
 import Cart from './Pages/Cart.jsx'
 import AllProducts from './Pages/AllProducts.jsx'
-import Edge from './Pages/Edge.jsx' 
+import Edge from './Pages/Edge.jsx'
+import Nebula from './Pages/Nebula.jsx' 
 
 // Register GSAP ScrollTrigger
 gsap.registerPlugin(ScrollTrigger)
@@ -55,6 +56,7 @@ const App = () => {
         <Route path='/cart' element={<Cart />} />
         <Route path='/all-products' element={<AllProducts />} />
         <Route path='/edge' element={<Edge />} />
+        <Route path='/nebula' element={<Nebula />} />
       </Routes>
     </Router>
   )

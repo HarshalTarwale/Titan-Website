@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 
 const Edge = () => {
   return (
-    <div className='bg-black w-full min-h-[100vh]'>
+    <div className=' w-full min-h-[100vh]'>
         {/* Navbar */}
         <Navbar/>
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Video from '../Components/Video'
+import Watchs from '../Components/Nebula Components/Watchs'
+import Footer from '../Components/Footer'
 
 const Nebula = () => {
   return (
@@ -12,6 +14,11 @@ const Nebula = () => {
       <Video
         src={`${import.meta.env.BASE_URL}public/Nebula/Hero-section-video.mp4`}/>
 
+      {/* Watches */}
+      <Watchs />
+
+      {/* Footer with custom heading */}
+      <Footer headingText="NEBULA" />
 
     </div>
   )

@@ -81,22 +81,22 @@ const Footer = () => {
             <div className='flex gap-4 mb-6'>
               <a href='https://www.facebook.com/TitanWatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'><FaFacebookF /></span>
+                  <span className='text-[16px]'><FaFacebookF /></span>
                 </div>
               </a>
               <a href='https://www.instagram.com/titanwatches/' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'><BsInstagram /></span>
+                  <span className='text-[16px]'><BsInstagram /></span>
                 </div>
               </a>
               <a href='https://www.youtube.com/user/TitanWatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'><FaYoutube /></span>
+                  <span className='text-[16px]'><FaYoutube /></span>
                 </div>
               </a>
               <a href='https://twitter.com/titanwatches' target='_blank' rel='noopener noreferrer' className='hover:opacity-70 transition-opacity'>
                 <div className='w-[40px] h-[40px] rounded-full bg-white/10 flex items-center justify-center'>
-                  <span className='text-[11px]'><FaXTwitter /></span>
+                  <span className='text-[16px]'><FaXTwitter /></span>
                 </div>
               </a>
             </div>

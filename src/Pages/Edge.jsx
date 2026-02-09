@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar'
 import Video from '../Components/Video'
 import Heading3 from '../Components/Heading3'
 import WatchCatalog from '../Components/Watchcatelog'
+import Watchs from '../Components/Edge Components/Watchs'
+import Footer from '../Components/Footer'
 
 const Edge = () => {
   return (
@@ -15,18 +17,11 @@ const Edge = () => {
           src={`${import.meta.env.BASE_URL}public/Edge/Edge video.mp4`}
         />
 
-        {/* Edge Catalog Section with overlayed heading */}
-        <div className='relative w-full mt-[15vh] mb-[15vh]'>
-          {/* Edge Heading - Absolute positioned behind cards */}
-          <div className='absolute top-0 left-0 right-0 z-0'>
-            <Heading3 text="EDGE" />
-          </div>
+        {/* Watches */}
+        <Watchs />
 
-          {/* Watch Catalog - Positioned over heading */}
-          <div className='relative z-10 text-white mt-[12vh]'>
-            <WatchCatalog />
-          </div>
-        </div>
+        {/* Footer with custom heading */}
+        <Footer headingText="EDGE" />
       
     </div>
   )

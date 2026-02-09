@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Edge = () => {
   return (
@@ -6,7 +7,7 @@ const Edge = () => {
         {/* Navbar */}
         <Navbar/>
 
-        
+
       
     </div>
   )

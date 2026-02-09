@@ -9,7 +9,8 @@ import Home from './Pages/Home.jsx'
 import Account from './Pages/Account.jsx'
 import Wishlist from './Pages/Wishlist.jsx'
 import Cart from './Pages/Cart.jsx'
-import AllProducts from './Pages/AllProducts.jsx' 
+import AllProducts from './Pages/AllProducts.jsx'
+import Edge from './Pages/Edge.jsx' 
 
 // Register GSAP ScrollTrigger
 gsap.registerPlugin(ScrollTrigger)
@@ -53,6 +54,7 @@ const App = () => {
         <Route path='/wishlist' element={<Wishlist />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/all-products' element={<AllProducts />} />
+        <Route path='/edge' element={<Edge />} />
       </Routes>
     </Router>
   )

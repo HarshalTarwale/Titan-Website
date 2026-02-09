@@ -94,7 +94,7 @@ const HomeGrid = () => {
             {/* Position: left-0 top-65.2% | Size: 40.6% width × 34.9% height */}
             <div 
                 className='edge absolute rounded-[1.3vh] left-0 top-[65.2%] w-[40.6%] h-[34.9%] cursor-pointer transition-all duration-300 hover:scale-102 hover:shadow-[0_0_15px_rgba(134,136,137,0.7)]'
-                onClick={() => handleNavigate('src\Pages\Edge.jsx')}
+                onClick={() => handleNavigate('edge')}
             >
                 <img 
                     src='public\Home\Grid Images\edge.jpg' 

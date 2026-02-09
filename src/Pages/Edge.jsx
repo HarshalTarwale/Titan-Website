@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Video from '../Components/Video'
 import Heading3 from '../Components/Heading3'
-import WatchCatalog from '../Components/WatchCatalog'
+import WatchCatalog from '../Components/Watchcatelog'
 
 const Edge = () => {
   return (

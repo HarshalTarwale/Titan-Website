@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Content */}
-      <div className='footer mt-[13vh] relative backdrop-blur-[10.743px] bg-[rgba(23,23,23,0.1)] border-[#7e828d] border-[1px] rounded-[13px] max-w-[1390px] mx-auto px-[75px] py-[50px] text-white zen'>
+      <div className='footer mt-[12.9vh] relative backdrop-blur-[9.743px] bg-[rgba(23,23,23,0.1)] border-[#7e828d] border-[1px] rounded-[13px] max-w-[1390px] mx-auto px-[75px] py-[50px] text-white zen'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8'>
           
           {/* COLLECTIONS */}

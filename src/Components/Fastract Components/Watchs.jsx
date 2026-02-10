@@ -305,11 +305,15 @@ const Watchs = () => {
     <div className='w-full relative pt-[10vh] mt-[15vh]'>
         {/* Background FASTRACT Heading */}
         <div className='absolute top-0 left-0 right-0 flex justify-center opacity-50 z-0'>
-          <Heading3 text="FASTRACT" />
+          <Heading3 text="FASTRACT" style={{
+              fontSize: '120px',
+              letterSpacing: '10px',
+              marginRight: '-12px'
+            }} />
         </div>
         
         {/* Watch Catalog - Positioned over half of FASTRACT text */}
-        <div className='relative z-10 mt-[10vh]'>
+        <div className='relative z-10 mt-[7vh]'>
           <WatchCatalog watches={fastractWatches} />
         </div>
     </div>

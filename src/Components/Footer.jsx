@@ -6,12 +6,12 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 
 
-const Footer = ({ headingText = "TITAN" }) => {
+const Footer = ({ headingText = "TITAN", headingStyle = {} }) => {
   return (
     <div className='w-full relative pt-[10vh] mb-[2vh] px-[3vh] mt-[20vh]'>
       {/* Background Heading */}
       <div className='absolute top-0 left-1/2 -translate-x-1/2 opacity-30'>
-        <Heading2 text={headingText} />
+        <Heading2 text={headingText} style={headingStyle} />
       </div>
 
       {/* Footer Content */}

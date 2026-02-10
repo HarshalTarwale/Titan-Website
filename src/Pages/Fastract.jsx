@@ -19,7 +19,15 @@ const Fastract = () => {
       <Watchs />
 
       {/* Footer with custom heading */}
-      <Footer headingText="FASTRACT" />
+      <Footer 
+        headingText="FASTRACT" 
+        headingStyle={{
+          fontSize: '120px',
+          letterSpacing: '30px',
+          marginRight: '-40px',
+          marginTop: '8vh'
+        }}
+      />
     </div>
   )
 }

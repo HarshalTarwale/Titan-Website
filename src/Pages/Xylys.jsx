@@ -12,7 +12,7 @@ const Xylys = () => {
 
       {/* Video */}
       <Video 
-        src={`${import.meta.env.BASE_URL}public/Xylys/login page video.mp4`}
+        src={`${import.meta.env.BASE_URL}public/Xylys/Cinematic Watch Commercial.mp4`}
       />
 
       {/* Watches */}

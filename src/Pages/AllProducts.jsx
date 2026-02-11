@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar.jsx'
 import Heading3 from '../Components/Heading3.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
-import Button1 from '../Components/Button1.jsx'
+import Button1 from '../Components/Buttons/Button1.jsx'
 import SmartWatchs from '../Components/Smart Components/Watchs.jsx'
 import NebulaWatchs from '../Components/Nebula Components/Watchs.jsx'
 import RagaWatchs from '../Components/Raga Components/Watchs.jsx'
@@ -10,6 +10,7 @@ import XylysWatchs from '../Components/Xylys Components/Watchs.jsx'
 import FastractWatchs from '../Components/Fastract Components/Watchs.jsx'
 import EdgeWatchs from '../Components/Edge Components/Watchs.jsx'
 import Footer from '../Components/Footer.jsx'
+import Backtotop from '../Components/Buttons/Backtotop.jsx'
 
 const AllProducts = () => {
   // Best Seller watches data - 12 watches (2 rows x 6 cards)
@@ -41,6 +42,8 @@ const AllProducts = () => {
   return (
     <div className='bg-black min-h-screen w-full'>
       <Navbar/>
+
+      <Backtotop />
 
       {/* Buttons */}
       <div className='Buttons w-full flex justify-center gap-[2vh] mt-[15vh] pt-[3vh] text-white'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button1 from '../Button1'
+import Button1 from '../Buttons/Button1'
 
 const LoginTab = () => {
   return (

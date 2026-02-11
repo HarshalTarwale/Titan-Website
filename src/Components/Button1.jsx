@@ -29,7 +29,7 @@ const Button1 = ({
     rounded-[15px] 
     border-[1px] 
     border-white 
-    hover:bg-white/20 
+    hover:bg-white/10 
     transition-all 
     duration-300 
     cursor-pointer 

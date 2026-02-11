@@ -26,7 +26,7 @@ import React from 'react'
 
 const Heading3 = ({ text = 'EDGE', className = '', style = {} }) => {
   const defaultStyle = {
-    backgroundImage: 'linear-gradient(180.149deg, rgba(255, 255, 255, 0.6) 44.989%, rgba(0, 0, 0, 0.6) 70.775%)',
+    backgroundImage: 'linear-gradient(180.149deg, rgba(255, 255, 255, 1) 44.989%, rgba(0, 0, 0, 0.6) 70.775%)',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
     backgroundClip: 'text',

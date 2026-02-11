@@ -9,6 +9,7 @@ import RagaWatchs from '../Components/Raga Components/Watchs.jsx'
 import XylysWatchs from '../Components/Xylys Components/Watchs.jsx'
 import FastractWatchs from '../Components/Fastract Components/Watchs.jsx'
 import EdgeWatchs from '../Components/Edge Components/Watchs.jsx'
+import Footer from '../Components/Footer.jsx'
 
 const AllProducts = () => {
   // Best Seller watches data - 12 watches (2 rows x 6 cards)
@@ -99,6 +100,8 @@ const AllProducts = () => {
       <div id="edge-section">
         <EdgeWatchs />
       </div>
+
+      <Footer/>
       
     </div>
   )
